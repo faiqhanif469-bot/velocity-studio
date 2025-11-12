@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         portfolioItem.style.opacity = '0';
         
         portfolioItem.innerHTML = `
-            <img src="${item.image}" alt="${item.title}" class="work-image-img">
+            <img src="${item.image}" alt="${item.title}" class="work-image-img" loading="lazy">
             <div class="portfolio-overlay">
                 <h3>${item.title}</h3>
                 <p>${item.subtitle}</p>
