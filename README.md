@@ -1,6 +1,6 @@
 # Velocity Studio
 
-World-class creative at the speed of your business.
+World-class creativity at the speed of your business
 
 ## 🚀 Live Site
 Visit: [Your GitHub Pages URL will be here]
