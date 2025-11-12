@@ -1,0 +1,38 @@
+{
+  "campaign": "Fashion Campaign - 4 Designs",
+  "brand": "LUXE FASHION",
+  "tagline": "Timeless Elegance",
+  "total_designs": 4,
+  "successful": 4,
+  "failed": 0,
+  "results": [
+    {
+      "design": "Design 1: Luxury Editorial",
+      "success": true,
+      "time": 61.70534825325012,
+      "error": null,
+      "file_path": "gallery\\Fashion_Campaign\\Design_1_luxury_editorial.png"
+    },
+    {
+      "design": "Design 2: Modern Minimalist",
+      "success": true,
+      "time": 22.951969623565674,
+      "error": null,
+      "file_path": "gallery\\Fashion_Campaign\\Design_2_minimalist_modern.png"
+    },
+    {
+      "design": "Design 3: Urban Street Style",
+      "success": true,
+      "time": 24.093668937683105,
+      "error": null,
+      "file_path": "gallery\\Fashion_Campaign\\Design_3_urban_modern.png"
+    },
+    {
+      "design": "Design 4: Artistic Fashion",
+      "success": true,
+      "time": 77.20498013496399,
+      "error": null,
+      "file_path": "gallery\\Fashion_Campaign\\Design_4_artistic_creative.png"
+    }
+  ]
+}

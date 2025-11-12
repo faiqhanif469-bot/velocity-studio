@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Velocity Studio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Velocity Studio</a>
+            <div class="nav-links">
+                <a href="work.html">Work</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="nav-cta active">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Let's Build Something Great</h1>
+            <p>Tell us about your project. We'll get back to you within 24 hours.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name / Website</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Which service are you interested in?</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="starter">Starter Package</option>
+                                <option value="growth">Growth Package</option>
+                                <option value="brand-launch">Brand Launch Kit</option>
+                                <option value="custom">Custom Solution</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your project</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Get in Touch</h3>
+                        <p>Prefer email? Reach us directly at:</p>
+                        <a href="mailto:faiqhanif469@gmail.com" class="email-link">faiqhanif469@gmail.com</a>
+                    </div>
+                    <div class="info-card">
+                        <h3>Response Time</h3>
+                        <p>We typically respond within 24 hours during business days.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>What Happens Next?</h3>
+                        <ul class="next-steps">
+                            <li>We review your project details</li>
+                            <li>Schedule a discovery call</li>
+                            <li>Provide a tailored proposal</li>
+                            <li>Start creating amazing work</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Velocity Studio</h3>
+                    <p>World-class creative at the speed of your business</p>
+                </div>
+                <div class="footer-links">
+                    <a href="work.html">Work</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Velocity Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
